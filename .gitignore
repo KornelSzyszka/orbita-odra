@@ -1,0 +1,22 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+*.tmp
+*.translation
+# Exports
+/build/
+/export/
+export_presets.cfg
+
+# Local course materials and private coordination notes (kept on disk, not published)
+/*.pdf
+/koncepcja*.md
+/docs/tasks/
+/tests/
+
+# Editor and OS artifacts
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+.DS_Store
